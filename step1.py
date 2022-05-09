@@ -1,4 +1,4 @@
-class character():
+class Character():
     def __init__(self,name,RPGClass):
         self.name = name
         self.RPGClass = RPGClass
@@ -11,5 +11,5 @@ class character():
         self.sentence = "Rrrrrrrrr...."
         print (self.name, ':', self.sentence)
 
-users = character ("Jean-Luc","Character")
+users = Character ("Jean-Luc","Character")
 users.attack()
